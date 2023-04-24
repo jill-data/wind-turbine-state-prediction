@@ -349,28 +349,28 @@ This did not yield better performance.
 We will now tune the configuration of the current network using the `keras-tuner` library.
 
 ```
-    Trial 30 Complete [00h 03m 48s]
-    val_loss: 1.3862947225570679
+Trial 30 Complete [00h 03m 48s]
+val_loss: 1.3862947225570679
 
-    Best val_loss So Far: 0.23773032426834106
-    Total elapsed time: 00h 41m 26s
-    INFO:tensorflow:Oracle triggered exit
+Best val_loss So Far: 0.23773032426834106
+Total elapsed time: 00h 41m 26s
+INFO:tensorflow:Oracle triggered exit
 
-    INFO:tensorflow:Oracle triggered exit
+INFO:tensorflow:Oracle triggered exit
 ```
 
 ```
-    -------- Best hyperparameters:
-    n_filters_conv1: 36
-    n_filters_conv2: 124
-    n_filters_conv3: 44
-    dropout_rate: 0.30791117675740814
-    learning_rate: 0.0020674508263974637
-    tuner/epochs: 15
-    tuner/initial_epoch: 5
-    tuner/bracket: 1
-    tuner/round: 1
-    tuner/trial_id: 0023
+-------- Best hyperparameters:
+n_filters_conv1: 36
+n_filters_conv2: 124
+n_filters_conv3: 44
+dropout_rate: 0.30791117675740814
+learning_rate: 0.0020674508263974637
+tuner/epochs: 15
+tuner/initial_epoch: 5
+tuner/bracket: 1
+tuner/round: 1
+tuner/trial_id: 0023
 ```
 
 ![png](Notebook_files/Notebook_81_25.png)
